@@ -136,3 +136,30 @@ footer {
     
 
 }
+
+.aviso {
+    animation-name: animacion-aviso;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+
+}
+
+@keyframes animacion-aviso {
+    0% {
+        color: blue;
+    }
+
+    25% {
+        color: orangered;
+    }
+
+    75% {
+        color: orange;
+       
+    }
+
+    100%{
+        color: blue;
+    }
+}
