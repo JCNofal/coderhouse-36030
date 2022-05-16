@@ -108,3 +108,43 @@ footer {
     color: orange; }
   100% {
     color: blue; } }
+
+.art-prevencion {
+  color: #e714ce82;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin: 3px; }
+
+.art-caja {
+  color: #3a52ed;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin: 3px; }
+
+.art-mapfre {
+  color: #de0505d9;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin: 3px; }
+
+.art-lasegunda {
+  color: #ea0f5189;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin: 3px; }
+
+.art-zurich {
+  color: #1c04739b;
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  margin: 3px; }
+
+.conocenosmain {
+  font-size: 16px;
+  font-family: "Lora";
+  font-style: italic; }

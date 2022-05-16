@@ -163,3 +163,31 @@ footer {
         color: blue;
     }
 }
+
+$arts: (
+    prevencion: #e714ce82,
+    caja: #3a52ed,
+    mapfre: #de0505d9,
+    lasegunda: #ea0f5189,
+    zurich: #1c04739b
+);
+
+@each $art, $color in $arts {
+    .art-#{$art} {
+        color: $color;
+        width: 50px;
+        height: 50px;
+        text-align: left;
+        margin: 3px;
+    }
+}
+
+@mixin font {
+    font-size: 16px;
+    font-family: "Lora";
+    font-style: italic;
+    }
+
+.conocenosmain {
+    @include font;
+}
